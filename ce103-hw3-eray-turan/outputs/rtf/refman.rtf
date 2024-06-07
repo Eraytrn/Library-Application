@@ -1,0 +1,1431 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment CE103 Homework 3 Eray Turan  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}CE103 Homework 3 Eray Turan}
+{\comment Generated by doxygen 1.9.5.}
+{\creatim \yr2022\mo12\dy9\hr11\min36\sec6}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt CE103 Homework 3 Eray Turan}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version 1.0\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Fri Dec 9 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Overview\par \pard\plain 
+{\tc \v Overview}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+  \par
+{
+\pard\plain 
+\pard \qc { \field\flddirty {\*\fldinst  INCLUDEPICTURE "logo-big.png" \\d \\*MERGEFORMAT}{\fldrslt Image}}
+\par
+}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Lorem Ipsum
+\par}
+{\tc\tcl3 \v Lorem Ipsum}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Version\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+1.0\par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\{Eray TURAN\}\par
+}}"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "Ac\'C4\'B1y\'C4\'B1 seven, arayan ve ona sahip olmak isteyen hi\'C3\'A7 kimse yoktur. Nedeni basit. \'C3\'87\'C3\'BCnk\'C3\'BC o ac\'C4\'B1d\'C4\'B1r..." Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eget ex elementum ullamcorper. Ut porta, mi et dapibus pellentesque, massa mi sollicitudin lectus, ac malesuada augue ligula a lectus. Quisque suscipit dui non ante tempor, ac consequat ipsum viverra. Sed vel risus fringilla, porttitor massa ut, rutrum nunc. Donec commodo, odio in semper facilisis, erat massa ornare erat, in scelerisque lacus elit sed mauris. Vestibulum ultrices ipsum id nisl condimentum, mattis commodo dui condimentum. Integer efficitur mi et rutrum dignissim. Donec lobortis convallis nisi eu ultricies. Ut porta eu enim a varius. Maecenas ac nisl tincidunt, finibus lacus eu, congue purus.\par
+Vestibulum non sem vitae ante pellentesque iaculis convallis vitae lectus. Sed eget ligula quam. Mauris in tellus nec magna porttitor dignissim id commodo neque. Sed consectetur quam a nisl aliquam rhoncus. Curabitur a quam at tortor sollicitudin finibus. Vivamus a odio cursus, viverra metus et, pretium purus. Aliquam a posuere neque, ut suscipit arcu. Mauris a nisl quis velit pulvinar consequat in vitae arcu. Curabitur venenatis metus vitae risus iaculis consequat. Quisque lacus diam, rhoncus ut diam tempus, rhoncus interdum leo.\par
+Phasellus erat mauris, pellentesque pretium nibh a, blandit condimentum neque. Vivamus lorem urna, ultrices vel rutrum a, ullamcorper id mi. Nunc semper pulvinar nunc in malesuada. Quisque faucibus, odio id porttitor fringilla, ipsum orci volutpat elit, id fringilla magna nisi sit amet erat. Nam pretium pretium orci a sollicitudin. Suspendisse iaculis, dolor at pulvinar dictum, felis est volutpat orci, nec tempor mi mi non augue. Duis augue lacus, hendrerit iaculis ornare id, feugiat et augue. Sed interdum ipsum diam. Donec rutrum finibus tortor id finibus. Praesent suscipit lacinia eros eget tristique. Aliquam lacinia at risus accumsan dapibus. Etiam orci urna, viverra quis ullamcorper a, dapibus in nunc. Vestibulum sit amet interdum leo. Nullam consectetur finibus sagittis. Nulla mollis diam a nunc gravida rutrum. Maecenas commodo eleifend dolor, eget scelerisque ipsum semper nec.\par
+Ut in sapien ac lorem semper egestas at eu ante. Suspendisse eros risus, vehicula nec mi eget, ornare fermentum diam. Nullam laoreet imperdiet turpis, sed pulvinar velit commodo quis. Sed ullamcorper dolor id purus imperdiet, et accumsan metus gravida. Fusce eu purus vehicula, rhoncus velit et, rutrum dui. Curabitur ut varius nibh. Integer hendrerit lorem vel commodo commodo. Proin massa metus, tincidunt eleifend felis eget, volutpat sodales orci.\par
+Nullam nunc libero, molestie in dolor id, congue malesuada elit. Maecenas luctus rutrum felis non pretium. Integer at pretium nisi, eu tempus sapien. Donec venenatis velit vitae rhoncus dictum. Mauris sed condimentum felis, et pretium sapien. Praesent est justo, placerat at lectus posuere, vulputate vulputate nunc. Proin mattis tellus a est gravida varius.\par
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nulla ac magna ut ex pharetra vulputate eget a enim.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Praesent sed felis feugiat, aliquam risus gravida, pretium libero.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Donec at leo in dolor vestibulum pharetra sed a sapien.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Etiam at sem vel dolor congue lacinia vitae at diam.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Duis gravida risus at dui feugiat dapibus.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Phasellus tincidunt dui in urna ultrices, eget mollis nisi venenatis.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Praesent eu nunc ullamcorper, commodo lorem id, suscipit felis.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Aenean vel nisl et urna rutrum semper.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Vestibulum sed turpis hendrerit, varius quam in, mollis odio.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Quisque sodales sem at vestibulum mattis.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nunc vitae ex facilisis, cursus quam at, luctus dui.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Sed ut sapien a libero dictum tempus.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Aliquam pulvinar sem aliquet velit mattis hendrerit.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Proin dignissim est cursus ipsum elementum vehicula.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Etiam rhoncus arcu eu laoreet aliquet.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Donec imperdiet mi vitae diam vestibulum, sed auctor nisi lobortis.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Morbi vulputate libero eget fringilla scelerisque.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nunc varius risus non lectus vestibulum, non malesuada purus semper. \par}
+\par
+\par}
+}}
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Index\par \pard\plain 
+{\tc \v Namespace Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Package List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the packages with brief descriptions (if available):}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_app}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAO" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.PasswordContent}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-app/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAB" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-app/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-lib/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-lib/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 Program.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-app/Properties/AssemblyInfo.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 ce103-hw3-library-lib/Properties/AssemblyInfo.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 Book.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 BookFunctions.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAM" }{}}{\fldrslt {\cs37\ul\cf2 ConversionUtility.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 FileUtility.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 MainMenu.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAS" }{}}{\fldrslt {\cs37\ul\cf2 PasswordContent.cs}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Documentation\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_app Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_app}
+{\xe \v ce103_hw3_library_app}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Program}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib}
+{\xe \v ce103_hw3_library_lib}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Book}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 BookFunctions}}}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ConversionUtility}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAO" }{}}{\fldrslt {\cs37\ul\cf2 FileUtility}}}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 library}}}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Menu}}}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 PasswordContent}}}
+\par
+}
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib.BookFunctions Class Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 AddBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 EditBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 ListBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 DeleteBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 BorrowBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 ListBorrowBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 SearchBook}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 ReturnBook}}}
+ ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v AddBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:AddBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.AddBook ()}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.AppendBlock()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_aeb0f4b25699b7ca705f259d228730ef5_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_aeb0f4b25699b7ca705f259d228730ef5_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v BorrowBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:BorrowBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.BorrowBook ()}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.ReadBlock()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.UpdateBlock()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a4d2ef5095cd896dba0b81ac4a8ca3f11_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a4d2ef5095cd896dba0b81ac4a8ca3f11_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v DeleteBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:DeleteBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.DeleteBook ()}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABI" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.DeleteBlock()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a859f030ca58df3aef0ca202c2df131ab_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a859f030ca58df3aef0ca202c2df131ab_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v EditBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:EditBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.EditBook ()}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.UpdateBlock()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_ac536d1aa3a17ba7ce32e8d9ea0cd4950_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_ac536d1aa3a17ba7ce32e8d9ea0cd4950_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ListBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:ListBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.ListBook ()}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.ReadBlock()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_ae4b718abfd1ef505ca816bada5a5053f_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_ae4b718abfd1ef505ca816bada5a5053f_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ListBorrowBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:ListBorrowBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.ListBorrowBook ()}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.ReadBlock()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_abc272bb655ce11abfa5cb33d995132b7_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_abc272bb655ce11abfa5cb33d995132b7_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ReturnBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:ReturnBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.ReturnBook ()}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.ReadBlock()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.UpdateBlock()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_af9a659e47a42e3f7ec1a29e280282a51_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_af9a659e47a42e3f7ec1a29e280282a51_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SearchBook\:ce103_hw3_library_lib.BookFunctions}
+{\xe \v ce103_hw3_library_lib.BookFunctions\:SearchBook}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.BookFunctions.SearchBook ()}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility.ReadBlock()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a81bb6f1f81a84ca37529ce32a397df10_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_book_functions_a81bb6f1f81a84ca37529ce32a397df10_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 BookFunctions.cs}}}
+\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib.FileUtility Class Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 DeleteFile}}}
+ (string path)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static byte[] {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 ReadBlock}}}
+ (int count, int blocksize, string path)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 AppendBlock}}}
+ (byte[] data, string path)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 UpdateBlock}}}
+ (byte[] data, int count, int blocksize, string path)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABI" }{}}{\fldrslt {\cs37\ul\cf2 DeleteBlock}}}
+ (int count, int blocksize, string path)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v AppendBlock\:ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility\:AppendBlock}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool ce103_hw3_library_lib.FileUtility.AppendBlock (byte[]  {\i data}, string  {\i path}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.AddBook()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_file_utility_a6b9ef5a028f3e26107779e0a3f300aef_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v DeleteBlock\:ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility\:DeleteBlock}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool ce103_hw3_library_lib.FileUtility.DeleteBlock (int  {\i count}, int  {\i blocksize}, string  {\i path}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.DeleteBook()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_file_utility_ad1233745f44f8159d86b0692c3a24b21_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v DeleteFile\:ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility\:DeleteFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool ce103_hw3_library_lib.FileUtility.DeleteFile (string  {\i path}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ReadBlock\:ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility\:ReadBlock}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static byte[] ce103_hw3_library_lib.FileUtility.ReadBlock (int  {\i count}, int  {\i blocksize}, string  {\i path}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.BorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ReturnBook()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.SearchBook()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_file_utility_a0706a9eaee6532bd3a42dda3579c9158_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v UpdateBlock\:ce103_hw3_library_lib.FileUtility}
+{\xe \v ce103_hw3_library_lib.FileUtility\:UpdateBlock}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool ce103_hw3_library_lib.FileUtility.UpdateBlock (byte[]  {\i data}, int  {\i count}, int  {\i blocksize}, string  {\i path}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.BorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.EditBook()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ReturnBook()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_file_utility_a3258416645b5a69d8d0eb9ac217b2c20_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 FileUtility.cs}}}
+\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib.library Class Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 Start}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 RunMainMenu}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 BookOption}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 Back}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABM" }{}}{\fldrslt {\cs37\ul\cf2 ExitApp}}}
+ ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v Back\:ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library\:Back}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.library.Back ()}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a84facf753a1182bffc9b0309adc8dadb_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a84facf753a1182bffc9b0309adc8dadb_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v BookOption\:ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library\:BookOption}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.library.BookOption ()}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.AddBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.Back()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.BorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.DeleteBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.EditBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ReturnBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu.Run()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.SearchBook()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a966e08d69fdd5e4d3bf6a12af39bfe14_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a966e08d69fdd5e4d3bf6a12af39bfe14_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ExitApp\:ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library\:ExitApp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.library.ExitApp ()}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a754cac172f3b071c7eea3f07777aac68_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v RunMainMenu\:ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library\:RunMainMenu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.library.RunMainMenu ()}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABM" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.ExitApp()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu.Run()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.AddBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.Back()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.BorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.DeleteBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.EditBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ListBorrowBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.ReturnBook()}}}
+, {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions.SearchBook()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.Start()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a80f197f4303dd78438ec6055614382da_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a80f197f4303dd78438ec6055614382da_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Start\:ce103_hw3_library_lib.library}
+{\xe \v ce103_hw3_library_lib.library\:Start}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.library.Start ()}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.PasswordContent.password()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu.Run()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a261e9b866de5ed430c5888e32120a346_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1library_a261e9b866de5ed430c5888e32120a346_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 MainMenu.cs}}}
+\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib.Menu Class Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib.Menu}
+{\xe \v ce103_hw3_library_lib.Menu}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 Menu}}}
+ (string prompt, string[] options)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABQ" }{}}{\fldrslt {\cs37\ul\cf2 DisplayOptions}}}
+ ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 Run}}}
+ ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Menu\:ce103_hw3_library_lib.Menu}
+{\xe \v ce103_hw3_library_lib.Menu\:Menu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ce103_hw3_library_lib.Menu.Menu (string  {\i prompt}, string[]  {\i options})}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v DisplayOptions\:ce103_hw3_library_lib.Menu}
+{\xe \v ce103_hw3_library_lib.Menu\:DisplayOptions}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.Menu.DisplayOptions ()}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu.Run()}}}
+.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_menu_af4dab9715ef5ee639001951ec8c3d5e2_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Run\:ce103_hw3_library_lib.Menu}
+{\xe \v ce103_hw3_library_lib.Menu\:Run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int ce103_hw3_library_lib.Menu.Run ()}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABQ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu.DisplayOptions()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.Start()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.BookOption()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.RunMainMenu()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_menu_a83866faf86a98cdc36d517e8ed443534_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_menu_a83866faf86a98cdc36d517e8ed443534_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 MainMenu.cs}}}
+\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ce103_hw3_library_lib.PasswordContent Class Reference\par \pard\plain 
+{\tc\tcl2 \v ce103_hw3_library_lib.PasswordContent}
+{\xe \v ce103_hw3_library_lib.PasswordContent}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 password}}}
+ ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v password\:ce103_hw3_library_lib.PasswordContent}
+{\xe \v ce103_hw3_library_lib.PasswordContent\:password}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ce103_hw3_library_lib.PasswordContent.password ()}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\ql
+References {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.PasswordContent.password()}}}
+, and {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library.Start()}}}
+.}\par
+{
+\ql
+Referenced by {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.PasswordContent.password()}}}
+.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_password_content_a4c3fd18dd3032675ace132457ebaedba_cgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classce103__hw3__library__lib_1_1_password_content_a4c3fd18dd3032675ace132457ebaedba_icgraph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAS" }{}}{\fldrslt {\cs37\ul\cf2 PasswordContent.cs}}}
+\par
+}
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\xe \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\xe \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\xe \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\xe \v .NETFramework,Version=v4.8.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Program.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Program.cs}
+{\xe \v Program.cs}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ce103_hw3_library_app.Program}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_app}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+AssemblyInfo.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v AssemblyInfo.cs}
+{\xe \v AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+AssemblyInfo.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v AssemblyInfo.cs}
+{\xe \v AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Book.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Book.cs}
+{\xe \v Book.cs}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ce103_hw3_library_lib.Book}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+BookFunctions.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v BookFunctions.cs}
+{\xe \v BookFunctions.cs}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.BookFunctions}}}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ConversionUtility.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v ConversionUtility.cs}
+{\xe \v ConversionUtility.cs}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ce103_hw3_library_lib.ConversionUtility}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+FileUtility.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v FileUtility.cs}
+{\xe \v FileUtility.cs}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAO" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.FileUtility}}}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+MainMenu.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v MainMenu.cs}
+{\xe \v MainMenu.cs}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.Menu}}}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.library}}}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+PasswordContent.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v PasswordContent.cs}
+{\xe \v PasswordContent.cs}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib.PasswordContent}}}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 ce103_hw3_library_lib}}}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdremboss\brdrw15\brsp20 \adjustright \par}
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SampleMarkdownFile.md File Reference\par \pard\plain 
+{\tc\tcl2 \v SampleMarkdownFile.md}
+{\xe \v SampleMarkdownFile.md}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+
+\pard\plain \sect\sbknone
+{\pard\widctlpar\brdrb\brdrs\brdrw75\brsp20 \adjustright \par}
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
